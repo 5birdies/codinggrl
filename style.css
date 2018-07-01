@@ -101,7 +101,7 @@
 	margin-right: auto;
 	padding: 0px;
 	margin-top: 0px;
-	margin-bottom: 30px;
+	margin-bottom: 130px;
 
 }
 
@@ -133,7 +133,13 @@
 	color: #fff;
 	font-size: 14px;
 	font-family: ProximaNova;
+	position: absolute;
 	
+}
+
+.read_more:hover {
+	transform: scale(1.05);
+	transition: 0.08s;
 }
 
 .inspiration {
@@ -155,6 +161,7 @@
 	font-family: OpenSans;
 	font-size: 35px;
 	text-transform: uppercase;
+	margin: 15px;
 
 }
 
@@ -164,7 +171,19 @@
 	color: #fd634e;
 	font-family: Montserrat;
 	font-size: 14px;
-	padding-top: 30px;
+	padding-top: 55px;
+	margin: 0px;
+
+}
+
+.subtitle_hover {
+
+	text-transform: uppercase;
+	color: #fd634e;
+	font-family: Montserrat;
+	font-size: 14px;
+	padding-top: 20px;
+	margin: 0px;
 
 }
 
@@ -174,6 +193,13 @@
 	color: #a2ca28;
 	font-family: OpenSans;
 	font-size: 14px;
+}
+
+.inspiration_link:hover {
+
+	background-color: rgba(253, 255, 51, 0.5);
+	padding: 3px;
+
 }
 
 .inspiration_text {
@@ -189,6 +215,97 @@
 	background-color: #000
 
 }
+
+.hover_1 {
+
+	position: relative;
+}
+
+.hover_1:before{
+	content: '';
+	opacity: 0;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 794px;
+	height: 394px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.hover_1:hover:before{
+	content: '';
+	opacity: 1;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 794px;
+	height: 394px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transition: all 1s;
+
+}
+
+.hover_text{
+
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	margin: -29px;
+	opacity: 0;
+}
+
+.hover_1:hover .hover_text{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	margin: -29px;
+	opacity: 1;	
+	transition: all 1s;
+}
+
+
+.hover_2 {
+
+	position: relative;
+}
+
+.hover_2:before{
+	content: '';
+	opacity: 0;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 794px;
+	height: 394px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.hover_2:hover:before{
+	content: '';
+	opacity: 1;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 794px;
+	height: 394px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transition: all 1s;
+}
+
+.hover_2:hover .hover_text{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	margin: -29px;
+	opacity: 1;	
+	transition: all 1s;
+
+}
+
 @font-face {
 
 	font-family: AvenirNext;
