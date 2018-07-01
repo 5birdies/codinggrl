@@ -100,6 +100,7 @@
 	padding: 0px;
 	margin-top: 0px;
 	margin-bottom: 130px;
+	font-kerning: auto;
 
 }
 
@@ -146,6 +147,7 @@
 	justify-content: space-between;
 	background-color: #fff;
 	width: 1180px;
+	height: 394px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -210,7 +212,150 @@
 .footer {
 
 	background-color: #0d1119;
+	display: flex;
+	padding-bottom: 50px;
 
+}
+
+.subscribtion {
+	margin-top: 70px;
+	margin-left: 17%;
+}
+
+.input {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	border: none;
+	border-radius: 3px;
+	font-family: ProximaNova, sans-serif;
+	font-size: 14px;
+	font-color: #83969f;
+
+}
+
+.button {
+	background: #a2ca28;
+	border-radius: 3px;
+	border: none;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 12.5px;
+	padding-right: 12.5px;
+	font-family: ProximaNova, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	width: 180px;
+	}
+
+.social {
+	list-style: none;
+	display: flex;
+	width: 250px;
+	justify-content: space-between;
+	margin-top: 65px;
+	margin-left: 140px;
+
+}
+
+.social_column {
+
+	width: 23%;
+}
+
+.fb {
+
+	background-color: #2e3192;
+	width: 50px;
+	height: 50px;
+	display: block;
+	position: relative;
+	border-radius: 50%;
+}
+
+.fb:before {
+
+	content: '';
+	background-image: url(./images/fb.svg);
+	background-color: #2e3192;
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.tw {
+
+	background-color: #00aeef;
+	width: 50px;
+	height: 50px;
+	display: block;
+	position: relative;
+	border-radius: 50%;
+}
+
+.tw:before {
+
+	content: '';
+	background-image: url(./images/tw.svg);
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.yt {
+
+	background-color: #ed3123;
+	width: 50px;
+	height: 50px;
+	display: block;
+	position: relative;
+	border-radius: 50%;
+}
+
+.yt:before {
+
+	content: '';
+	background-image: url(./images/yt.svg);
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.ln {
+
+	background-color: #171a8f;
+	width: 50px;
+	height: 50px;
+	display: block;
+	position: relative;
+	border-radius: 50%;
+}
+
+.ln:before {
+
+	content: '';
+	background-image: url(./images/ln.svg);
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 15px;
 }
 
 .hover_1 {
